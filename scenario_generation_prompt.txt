@@ -1,0 +1,63 @@
+SCENARIO GENERATION INSTRUCTIONS
+
+INPUTS:
+1.  **Abstract Persona**: [Insert Persona JSON here]
+2.  **Scheme Category**: [Insert Scheme Category here] (e.g., Food & Nutrition, Social Security / Pensions / DBT, Employment & Wage Programs, Health Insurance / Health-linked Benefits)
+
+INSTRUCTIONS:
+
+1.  **Interpret Access Conditions**:
+    -   Treat the persona's fields (e.g., `mobility_and_distance_constraint`, `digital_access_quality`, `biometric_authentication_status`) as *environmental* and *systemic* frictions, not personal failings.
+    -   Synthesize these fields into a narrative context (e.g., "Living in a remote area with spotty connectivity and worn fingerprints due to manual labor").
+    -   Do NOT simply list the JSON fields verbatim.
+
+2.  **Generate Alternative Trajectories**:
+    -   Produce 2 to 4 distinct, plausible scenarios for how this persona might experience accessing benefits in the given scheme category.
+    -   **Trajectory Rules**:
+        -   Ensure meaningful differences (e.g., one resolution via an intermediary, one exclusion due to biometric failure, one requiring multiple physical trips).
+        -   NEVER present any trajectory as a guaranteed or "correct" outcome.
+        -   Label them clearly (e.g., "Trajectory 1", "Trajectory 2").
+
+3.  **Detail Each Trajectory**:
+    -   **Primary Friction**: What specific barrier blocks, slows down, or complicates access? (e.g., biometric mismatch, lack of transport, documentation gap).
+    -   **Stage**: Where in the delivery chain does this occur? (Application, Enrollment, Authentication, Payment, Grievance).
+    -   **Why**: Explain why this friction commonly occurs for *this specific profile* (e.g., "Older individuals often face higher biometric failure rates due to fading fingerprints").
+
+4.  **Include a Generic Mitigation Section**:
+    -   List typical actions or support systems people in similar situations often rely on to overcome these barriers.
+    -   Examples: Seeking help from a local influencer/intermediary, visiting a different service point, filing a written grievance.
+    -   **DO NOT** provide specific official forms, contact details, or legal advice.
+
+5.  **Language & Safety Guidelines**:
+    -   Use **Third-Person, Illustrative Language** ONLY.
+        -   *Good*: "An individual in this situation might experience..."
+        -   *Good*: "Commonly, this friction leads to..."
+    -   **NO Second-Person Determinism**.
+        -   *Bad*: "You will be denied because..."
+        -   *Bad*: "You are eligible for..."
+    -   **NO Specific Numeric Rules**.
+        -   Do not invent income limits, cutoff dates, or specific eligibility criteria. Focus on the *process* and *access barriers*.
+
+REQUIRED OUTPUT FORMAT (STRICT):
+
+**Scenario Overview**
+[2-3 sentences synthesizing the persona's access context and the scheme category]
+
+**Trajectory 1: [Descriptive Title]**
+*   **Friction**: [Specific barrier involved]
+*   **Stage**: [Delivery chain stage]
+*   **Context**: [Explanation of why this happens relative to the persona's constraints]
+*   **Outcome**: [Plausible result, e.g., delay, exclusion, or success after effort]
+
+**Trajectory 2: [Descriptive Title]**
+*   **Friction**: [Specific barrier involved]
+*   **Stage**: [Delivery chain stage]
+*   **Context**: [Explanation]
+*   **Outcome**: [Plausible result]
+
+**(Optional) Trajectory 3 / 4**
+[Follow same format if needed]
+
+**Common Mitigation Paths**
+*   [Mitigation strategy 1]
+*   [Mitigation strategy 2]

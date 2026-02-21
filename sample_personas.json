@@ -1,0 +1,62 @@
+[
+    {
+        "label": "Remote_Elderly_Biometric_Risk",
+        "description": "An elderly individual in a remote area facing severe mobility constraints and high risk of biometric failure due to age-related fingerprints/iris issues.",
+        "information_awareness_level": "moderate_awareness",
+        "documentation_completeness": "minor_discrepancies_exist",
+        "digital_access_quality": "no_reliable_digital_access",
+        "biometric_authentication_status": "systemic_failure_risk",
+        "mobility_and_distance_constraint": "severe_constraint",
+        "local_institutional_support": "passive_support",
+        "grievance_navigation_agency": "low_agency",
+        "language_and_communication_barrier": "partial_language_barrier"
+    },
+    {
+        "label": "Aware_Citizen_Institutional_Roadblock",
+        "description": "A knowledgeable individual with correct documents who faces obstruction or negligence from local officials.",
+        "information_awareness_level": "high_awareness",
+        "documentation_completeness": "fully_compliant_documents",
+        "digital_access_quality": "intermittent_digital_access",
+        "biometric_authentication_status": "seamless_authentication",
+        "mobility_and_distance_constraint": "moderate_constraint",
+        "local_institutional_support": "negligent_support",
+        "grievance_navigation_agency": "high_agency",
+        "language_and_communication_barrier": "no_language_barrier"
+    },
+    {
+        "label": "Digitally_Excluded_Supported_Beneficiary",
+        "description": "An individual with no digital access and low awareness, but who succeeds due to strong support from a proactive local intermediary.",
+        "information_awareness_level": "low_awareness",
+        "documentation_completeness": "minor_discrepancies_exist",
+        "digital_access_quality": "no_reliable_digital_access",
+        "biometric_authentication_status": "frequent_retry_needed",
+        "mobility_and_distance_constraint": "moderate_constraint",
+        "local_institutional_support": "proactive_support",
+        "grievance_navigation_agency": "low_agency",
+        "language_and_communication_barrier": "partial_language_barrier"
+    },
+    {
+        "label": "Migrant_Worker_Language_Barrier",
+        "description": "A worker in a new state who faces severe exclusion due to inability to communicate in the local administrative language.",
+        "information_awareness_level": "moderate_awareness",
+        "documentation_completeness": "fully_compliant_documents",
+        "digital_access_quality": "intermittent_digital_access",
+        "biometric_authentication_status": "frequent_retry_needed",
+        "mobility_and_distance_constraint": "severe_constraint",
+        "local_institutional_support": "passive_support",
+        "grievance_navigation_agency": "low_agency",
+        "language_and_communication_barrier": "exclusionary_language_barrier"
+    },
+    {
+        "label": "Urban_Digital_Native_Smooth_Access",
+        "description": "An ideal access profile with minimal frictions, representing the 'happy path' design assumption.",
+        "information_awareness_level": "high_awareness",
+        "documentation_completeness": "fully_compliant_documents",
+        "digital_access_quality": "robust_digital_access",
+        "biometric_authentication_status": "seamless_authentication",
+        "mobility_and_distance_constraint": "minimal_constraint",
+        "local_institutional_support": "passive_support",
+        "grievance_navigation_agency": "high_agency",
+        "language_and_communication_barrier": "no_language_barrier"
+    }
+]

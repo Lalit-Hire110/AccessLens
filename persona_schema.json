@@ -1,0 +1,91 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "AccessLens Persona Schema",
+    "description": "Abstract dimensions representing non-financial access frictions in benefit delivery systems. These dimensions describe conditions, not inherent capabilities or eligibility.",
+    "type": "object",
+    "properties": {
+        "information_awareness_level": {
+            "type": "string",
+            "description": "Represents the level of knowledge about scheme entitlements, eligibility criteria, and application processes.",
+            "enum": [
+                "high_awareness",
+                "moderate_awareness",
+                "low_awareness"
+            ]
+        },
+        "documentation_completeness": {
+            "type": "string",
+            "description": "Represents the current status of required identity and supporting documents relative to administrative mandates.",
+            "enum": [
+                "fully_compliant_documents",
+                "minor_discrepancies_exist",
+                "significant_gaps_or_errors"
+            ]
+        },
+        "digital_access_quality": {
+            "type": "string",
+            "description": "Represents the reliability and availability of digital infrastructure (device, detailed connectivity, literacy) needed for access.",
+            "enum": [
+                "robust_digital_access",
+                "intermittent_digital_access",
+                "no_reliable_digital_access"
+            ]
+        },
+        "biometric_authentication_status": {
+            "type": "string",
+            "description": "Represents the historical consistency and success rate of biometric verification attempts.",
+            "enum": [
+                "seamless_authentication",
+                "frequent_retry_needed",
+                "systemic_failure_risk"
+            ]
+        },
+        "mobility_and_distance_constraint": {
+            "type": "string",
+            "description": "Represents physical and logistical barriers related to travel distance and transport availability.",
+            "enum": [
+                "minimal_constraint",
+                "moderate_constraint",
+                "severe_constraint"
+            ]
+        },
+        "local_institutional_support": {
+            "type": "string",
+            "description": "Represents the responsiveness and helpfulness of local intermediaries and administrative officials.",
+            "enum": [
+                "proactive_support",
+                "passive_support",
+                "negligent_support"
+            ]
+        },
+        "grievance_navigation_agency": {
+            "type": "string",
+            "description": "Represents the ability to independently understand and navigate grievance redressal mechanisms.",
+            "enum": [
+                "high_agency",
+                "moderate_agency",
+                "low_agency"
+            ]
+        },
+        "language_and_communication_barrier": {
+            "type": "string",
+            "description": "Represents the linguistic and communication gap between the individual and official administrative channels.",
+            "enum": [
+                "no_language_barrier",
+                "partial_language_barrier",
+                "exclusionary_language_barrier"
+            ]
+        }
+    },
+    "required": [
+        "information_awareness_level",
+        "documentation_completeness",
+        "digital_access_quality",
+        "biometric_authentication_status",
+        "mobility_and_distance_constraint",
+        "local_institutional_support",
+        "grievance_navigation_agency",
+        "language_and_communication_barrier"
+    ],
+    "additionalProperties": false
+}
