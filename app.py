@@ -10,11 +10,11 @@ import json
 from pathlib import Path
 
 import streamlit as st
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 
 from llm_engine import generate_scenarios
 
-load_dotenv()
+# load_dotenv()
 
 # ---------------------------------------------------------------------------
 # Constants
